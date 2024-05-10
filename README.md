@@ -1,5 +1,5 @@
 # International Showtimes API - Task 1
-All the solutions for the problems that are on task 1, are at ./src/index.ts\
+All the solution functions `solutionOne()`, `solutionTwo()`, `solutionThree()` for the problems that are on task 1, are at ./src/index.ts\
 
 
 
