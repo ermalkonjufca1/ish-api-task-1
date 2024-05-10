@@ -1,6 +1,6 @@
-import { Person } from "./Person";
-import { Room } from "./Room";
-import { LightBulb } from "./LightBulb";
+import { Person } from "./Person.ts";
+import { Room } from "./Room.ts";
+import { LightBulb } from "./LightBulb.ts";
 
 function solutionOne(): void {
   const person = new Person();
