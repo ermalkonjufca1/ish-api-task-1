@@ -50,5 +50,20 @@ function solutionTwo(): void {
   }, 60000);
 }
 
+function solutionThree(): void {
+  const person = new Person();
+  const colors = ["red", "green", "blue"];
+
+  colors.forEach((color) => {
+    const lb = new LightBulb(color);
+    const room = new Room(lb);
+    person.enterRoom(room);
+    console.log(`Light bulb color is: ${color}`);
+    person.switchLightBulb("ON");
+    person.leaveRoom();
+  });
+}
+
 // solutionOne();
 // solutionTwo();
+// solutionThree();
